@@ -38,11 +38,11 @@ var Movies = Backbone.Collection.extend({
     //   }
     // });
     // } else {
-  this.comparator = field;
-  this.sort(field);
+    this.comparator = field;
+    this.sort(field);
   //   }
   //    //console.log ('reaching here');
-   }
+  }
 
 });
 
